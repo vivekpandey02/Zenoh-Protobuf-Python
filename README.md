@@ -10,7 +10,9 @@ rm -f $PROTOC_ZIP
 ```
 
 ## Compiling Your Protocol Buffers
-protoc -I=$SRC_DIR --python_out=$DST_DIR $SRC_DIR/fms.proto
+```
+> protoc -I=$SRC_DIR --python_out=$DST_DIR $SRC_DIR/fms.proto
+```
 
 ## Run the Subscriber Code
 ```
