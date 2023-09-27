@@ -18,5 +18,5 @@ For example
 
 ## Run the Subscriber Code
 ```
-> python3 fms_z_sub.py -m "peer" -k "fms/vehicleStatus
+> python3 fms_z_sub.py -m "peer" -k "fms/vehicleStatus"
 ```
